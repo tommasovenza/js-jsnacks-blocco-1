@@ -5,7 +5,7 @@
 var numero = parseInt(prompt('inserisci un numero di 4 cifre'));
 
 while (!(numero >= 1000 && numero <= 9999)) {
-    var numero = prompt('inserisci un numero di quattro cifre');
+    var numero = parseInt(prompt('inserisci un numero di 4 cifre'));
 }
 
 var numeroStringa = numero.toString();
