@@ -2,11 +2,10 @@
 // di tutte le cifre che compongono il numero.
 
 
-var numero = parseInt(prompt('inserisci un numero di quattro cifre'));
+var numero;
 
-while (numero === !isNaN)  {
-    var numero = parseInt(prompt('inserisci un numero di quattro cifre'));
-
+while (isNaN(parseInt(numero)) || (numero.length != 4)) {
+    var numero = prompt('inserisci un numero di quattro cifre');
 }
 
 var numeroStringa = numero.toString();
