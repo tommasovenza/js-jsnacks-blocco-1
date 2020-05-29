@@ -2,9 +2,9 @@
 // di tutte le cifre che compongono il numero.
 
 
-var numero;
+var numero = parseInt(prompt('inserisci un numero di 4 cifre'));
 
-while (isNaN(parseInt(numero)) || (numero.length != 4)) {
+while (!(numero >= 1000 && numero <= 9999)) {
     var numero = prompt('inserisci un numero di quattro cifre');
 }
 
